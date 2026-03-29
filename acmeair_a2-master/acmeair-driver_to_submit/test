@@ -1,0 +1,90 @@
+Service:acmeair-bookingservice CPU bad: 85.0, good: 35.0, cpu: 3.3342838000000006
+Service:acmeair-bookingservice CPU harmfulness not None: 0.0
+Service:acmeair-bookingservice :0.015731131, 0.0, 0.0
+Service:acmeair-customer-db CPU bad: 85.0, good: 35.0, cpu: 3.0010337
+Service:acmeair-customer-db CPU harmfulness not None: 0.0
+Service:acmeair-customer-db :0.0, 0.0, 0.0
+Service:acmeair-flight-db CPU bad: 85.0, good: 35.0, cpu: 2.9775671
+Service:acmeair-flight-db CPU harmfulness not None: 0.0
+Service:acmeair-flight-db :0.0, 0.0, 0.0
+Service:acmeair-booking-db CPU bad: 85.0, good: 35.0, cpu: 2.2345170999999997
+Service:acmeair-booking-db CPU harmfulness not None: 0.0
+Service:acmeair-booking-db :0.0, 0.0, 0.0
+Service:acmeair-flightservice CPU bad: 85.0, good: 35.0, cpu: 1.2193505000000002
+Service:acmeair-flightservice CPU harmfulness not None: 0.0
+Service:acmeair-flightservice :0.1066951555, 0.0, 0.43487559749999993
+Service:acmeair-authservice CPU bad: 85.0, good: 35.0, cpu: 1.4025504000000002
+Service:acmeair-authservice CPU harmfulness not None: 0.0
+Service:acmeair-authservice :0.005922192, 0.0, 0.0
+Service:acmeair-customerservice CPU bad: 85.0, good: 35.0, cpu: 1.0862339000000003
+Service:acmeair-customerservice CPU harmfulness not None: 0.0
+Service:acmeair-customerservice :0.007774562, 0.0, 0.0
+Service:acmeair-mainservice CPU bad: 85.0, good: 35.0, cpu: 0.9800504
+Service:acmeair-mainservice CPU harmfulness not None: 0.0
+Service:acmeair-mainservice :0.000249623, 0.0, 0.0
+================= Recommended Strategies ================
+Service: acmeair-authservice
+  Best strategy to take for this service: scale_down (score: 0.977)
+  Other strategies in priority order:
+    tune_threads: 0.304
+    add_pods    : 0.303
+    add_cpu     : 0.003
+    add_mem     : 0.001
+    do_nothing  : 0.000
+Service: acmeair-booking-db
+  Best strategy to take for this service: scale_down (score: 0.968)
+  Other strategies in priority order:
+    add_pods    : 0.150
+    tune_threads: 0.150
+    add_cpu     : 0.000
+    add_mem     : 0.000
+    do_nothing  : 0.000
+Service: acmeair-bookingservice
+  Pod restarts observed: 7800.0 times in last 10 mins, check the pod logs for possible crashes.
+  Best strategy to take for this service: scale_down (score: 0.945)
+  Other strategies in priority order:
+    tune_threads: 0.311
+    add_pods    : 0.308
+    add_cpu     : 0.007
+    add_mem     : 0.003
+    do_nothing  : 0.000
+Service: acmeair-customer-db
+  Best strategy to take for this service: scale_down (score: 0.957)
+  Other strategies in priority order:
+    add_pods    : 0.150
+    tune_threads: 0.150
+    add_cpu     : 0.000
+    add_mem     : 0.000
+    do_nothing  : 0.000
+Service: acmeair-customerservice
+  Best strategy to take for this service: scale_down (score: 0.981)
+  Other strategies in priority order:
+    tune_threads: 0.305
+    add_pods    : 0.304
+    add_cpu     : 0.003
+    add_mem     : 0.002
+    do_nothing  : 0.000
+Service: acmeair-flight-db
+  Best strategy to take for this service: scale_down (score: 0.957)
+  Other strategies in priority order:
+    add_pods    : 0.150
+    tune_threads: 0.150
+    add_cpu     : 0.000
+    add_mem     : 0.000
+    do_nothing  : 0.000
+Service: acmeair-flightservice
+  Best strategy to take for this service: scale_down (score: 0.929)
+  Other strategies in priority order:
+    tune_threads: 0.375
+    add_pods    : 0.353
+    add_mem     : 0.239
+    add_cpu     : 0.048
+    do_nothing  : 0.000
+Service: acmeair-mainservice
+  Best strategy to take for this service: scale_down (score: 0.986)
+  Other strategies in priority order:
+    tune_threads: 0.300
+    add_pods    : 0.300
+    add_cpu     : 0.000
+    add_mem     : 0.000
+    do_nothing  : 0.000

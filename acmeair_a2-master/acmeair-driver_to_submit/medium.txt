@@ -1,0 +1,614 @@
+
+===== Iteration 1/3 | label=medium-iteration1 =====
+[LOAD] running JMeter profile: medium
+HOST=acmeair9image-registry-openshift-image-registry.mycluster-ca-tor-1-835845-04e8c71ff333c8969bc4cbc5a77a70f6-0000.ca-tor.containers.appdomain.cloud
+PORT=80
+THREAD=300
+USER=3000
+DURATION=300
+RAMP=120
+DELAY=2
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    33  100    33    0     0     49      0 --:--:-- --:--:-- --:--:--    49
+Cleared bookings in 0.185 seconds
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:05 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:06 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:07 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:08 --:--:--     0100    42  100    42    0     0      4      0  0:00:10  0:00:08  0:00:02     8
+Loaded flights for 5 days in 8.578 seconds
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    39  100    39    0     0     44      0 --:--:-- --:--:-- --:--:--    44
+Loaded 10000 customers in 0.805 seconds
+[LOAD] starting JMeter… log: logs/jmeter_medium_20251011-071023.log
+WARNING: package sun.awt.X11 not in java.desktop
+WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release
+WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release
+WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release
+WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release
+Creating summariser <summary>
+Created the tree successfully using acmeair-jmeter/scripts/AcmeAir-microservices-mpJwt.jmx
+Starting standalone test @ 2025 Oct 11 07:10:26 EDT (1760181026459)
+Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
+usePureIDs property was set.
+summary +      1 in 00:00:07 =    0.2/s Avg:  2338 Min:  2338 Max:  2338 Err:     0 (0.00%) Active: 13 Started: 13 Finished: 0
+summary +   1797 in 00:00:27 =   67.8/s Avg:   677 Min:    21 Max:  4424 Err:     0 (0.00%) Active: 80 Started: 80 Finished: 0
+summary =   1798 in 00:00:33 =   54.2/s Avg:   678 Min:    21 Max:  4424 Err:     0 (0.00%)
+summary +   3227 in 00:00:30 =  107.6/s Avg:   908 Min:    17 Max:  9516 Err:   141 (4.37%) Active: 155 Started: 155 Finished: 0
+summary =   5025 in 00:01:03 =   79.6/s Avg:   826 Min:    17 Max:  9516 Err:   141 (2.81%)
+summary +   4704 in 00:00:30 =  157.0/s Avg:  1106 Min:    13 Max:  8698 Err:   142 (3.02%) Active: 231 Started: 231 Finished: 0
+summary =   9729 in 00:01:33 =  104.5/s Avg:   961 Min:    13 Max:  9516 Err:   283 (2.91%)
+summary +    659 in 00:00:30 =   21.9/s Avg: 11703 Min:  8776 Max: 13312 Err:   645 (97.88%) Active: 300 Started: 300 Finished: 0
+summary =  10388 in 00:02:03 =   84.3/s Avg:  1642 Min:    13 Max: 13312 Err:   928 (8.93%)
+summary +   5590 in 00:00:30 =  186.1/s Avg:  1627 Min:    12 Max: 11826 Err:   904 (16.17%) Active: 300 Started: 300 Finished: 0
+summary =  15978 in 00:02:33 =  104.3/s Avg:  1637 Min:    12 Max: 13312 Err:  1832 (11.47%)
+summary +    551 in 00:00:30 =   18.4/s Avg: 15581 Min:  6887 Max: 19256 Err:   520 (94.37%) Active: 300 Started: 300 Finished: 0
+summary =  16529 in 00:03:03 =   90.2/s Avg:  2102 Min:    12 Max: 19256 Err:  2352 (14.23%)
+summary +   3322 in 00:00:30 =  111.0/s Avg:  3196 Min:    14 Max: 25977 Err:   554 (16.68%) Active: 300 Started: 300 Finished: 0
+summary =  19851 in 00:03:33 =   93.1/s Avg:  2285 Min:    12 Max: 25977 Err:  2906 (14.64%)
+summary +   4881 in 00:00:30 =  161.1/s Avg:  1322 Min:    10 Max: 17137 Err:   800 (16.39%) Active: 300 Started: 300 Finished: 0
+summary =  24732 in 00:04:03 =  101.6/s Avg:  2095 Min:    10 Max: 25977 Err:  3706 (14.98%)
+summary +    685 in 00:00:30 =   23.1/s Avg: 14705 Min: 11827 Max: 19154 Err:   685 (100.00%) Active: 300 Started: 300 Finished: 0
+summary =  25417 in 00:04:33 =   93.1/s Avg:  2435 Min:    10 Max: 25977 Err:  4391 (17.28%)
+summary +    825 in 00:00:30 =   27.5/s Avg: 10980 Min: 10656 Max: 11895 Err:   825 (100.00%) Active: 273 Started: 300 Finished: 27
+summary =  26242 in 00:05:03 =   86.6/s Avg:  2703 Min:    10 Max: 25977 Err:  5216 (19.88%)
+summary +    272 in 00:00:12 =   22.9/s Avg: 11298 Min: 10926 Max: 12050 Err:   272 (100.00%) Active: 0 Started: 300 Finished: 300
+summary =  26514 in 00:05:15 =   84.2/s Avg:  2792 Min:    10 Max: 25977 Err:  5488 (20.70%)
+Tidying up ...    @ 2025 Oct 11 07:15:41 EDT (1760181341915)
+... end of run
+[LOAD] finished. JTL: logs/jmeter_medium_20251011-071023.jtl
+[LOAD] JMeter profile medium finished.
+ Different scales determined from the data under this 10 mins window:
+CPU (%): good <= 35.0, bad >= 85.0
+Memory (%): good <= 50.0, bad >= 90.0
+Latency (ms): normal <= 0, bad >= 2000000000.0
+TPS: low <= 5.0, high >= 15.0
+GC events: good <= 0.0, bad >= 8.0
+================= Recommended Strategies ================
+Service: acmeair-authservice
+  Best strategy to take for this service: tune_threads (score: 1.000)
+  Other strategies in priority order:
+    add_pods    : 0.800
+    add_cpu     : 0.450
+    add_mem     : 0.200
+    scale_down  : 0.084
+    do_nothing  : 0.000
+Service: acmeair-booking-db
+  Best strategy to take for this service: scale_down (score: 0.943)
+  Other strategies in priority order:
+    add_cpu     : 0.000
+    add_mem     : 0.000
+    add_pods    : 0.000
+    tune_threads: 0.000
+    do_nothing  : 0.000
+Service: acmeair-bookingservice
+  Best strategy to take for this service: add_pods (score: 0.887)
+  Other strategies in priority order:
+    add_cpu     : 0.689
+    tune_threads: 0.566
+    add_mem     : 0.200
+    scale_down  : 0.000
+    do_nothing  : 0.000
+Service: acmeair-customer-db
+  Best strategy to take for this service: scale_down (score: 0.950)
+  Other strategies in priority order:
+    add_cpu     : 0.000
+    add_mem     : 0.000
+    add_pods    : 0.000
+    tune_threads: 0.000
+    do_nothing  : 0.000
+Service: acmeair-customerservice
+  Best strategy to take for this service: scale_down (score: 0.678)
+  Other strategies in priority order:
+    tune_threads: 0.443
+    add_pods    : 0.360
+    add_cpu     : 0.189
+    add_mem     : 0.084
+    do_nothing  : 0.000
+Service: acmeair-flight-db
+  Best strategy to take for this service: scale_down (score: 0.933)
+  Other strategies in priority order:
+    add_cpu     : 0.000
+    add_mem     : 0.000
+    add_pods    : 0.000
+    tune_threads: 0.000
+    do_nothing  : 0.000
+Service: acmeair-flightservice
+  Best strategy to take for this service: tune_threads (score: 0.605)
+  Other strategies in priority order:
+    add_pods    : 0.527
+    add_cpu     : 0.525
+    add_mem     : 0.200
+    scale_down  : 0.000
+    do_nothing  : 0.000
+Service: acmeair-mainservice
+  Best strategy to take for this service: scale_down (score: 0.966)
+  Other strategies in priority order:
+    tune_threads: 0.303
+    add_pods    : 0.302
+    add_cpu     : 0.002
+    add_mem     : 0.001
+    do_nothing  : 0.000
+Current action we plan to make is: {'acmeair-flightservice': 'tune_threads', 'acmeair-bookingservice': 'add_pods', 'acmeair-authservice': 'tune_threads', 'acmeair-flight-db': 'scale_down', 'acmeair-customerservice': 'scale_down', 'acmeair-customer-db': 'scale_down', 'acmeair-mainservice': 'scale_down', 'acmeair-booking-db': 'scale_down'}
+[NOTE] acmeair-flightservice: tune_threads suggested cannot be applied at current stage, because we cannot access to the thread in our side.
+$ sh ./configuration.sh cpu=500 memory=512 replica=2 service=acmeair-bookingservice
+[PATCH] deploy-acmeair-bookingservice-java.yaml (acmeair-bookingservice)  -> backups to deploy-acmeair-bookingservice-java.yaml.bak
+deployment.apps/acmeair-bookingservice configured
+service/acmeair-booking-service unchanged
+service/acmeair-secure-booking-service unchanged
+service/acmeair-booking-db configured
+deployment.apps/acmeair-booking-db configured
+[DONE] Applied. Backups are alongside the YAMLs.
+[NOTE] acmeair-authservice: tune_threads suggested cannot be applied at current stage, because we cannot access to the thread in our side.
+[MAP] acmeair-flight-db: scale_down  CPU 500m to 375m when replica is 1
+$ sh ./configuration.sh cpu=375 memory=512 replica=1 service=acmeair-flight-db
+[DONE] Applied. Backups are alongside the YAMLs.
+[MAP] acmeair-customerservice: scale_down  CPU 500m to 375m when replica is 1
+$ sh ./configuration.sh cpu=375 memory=512 replica=1 service=acmeair-customerservice
+[PATCH] deploy-acmeair-customerservice-java.yaml (acmeair-customerservice)  -> backups to deploy-acmeair-customerservice-java.yaml.bak
+deployment.apps/acmeair-customerservice configured
+service/acmeair-customer-service unchanged
+service/acmeair-secure-customer-service unchanged
+service/acmeair-customer-db configured
+deployment.apps/acmeair-customer-db configured
+[DONE] Applied. Backups are alongside the YAMLs.
+[MAP] acmeair-customer-db: scale_down  CPU 500m to 375m when replica is 1
+$ sh ./configuration.sh cpu=375 memory=512 replica=1 service=acmeair-customer-db
+[DONE] Applied. Backups are alongside the YAMLs.
+[MAP] acmeair-mainservice: scale_down  CPU 500m to 375m when replica is 1
+$ sh ./configuration.sh cpu=375 memory=512 replica=1 service=acmeair-mainservice
+[PATCH] deploy-acmeair-mainservice-java.yaml (acmeair-mainservice)  -> backups to deploy-acmeair-mainservice-java.yaml.bak
+deployment.apps/acmeair-mainservice configured
+service/acmeair-main-service unchanged
+service/acmeair-secure-main-service unchanged
+[DONE] Applied. Backups are alongside the YAMLs.
+[MAP] acmeair-booking-db: scale_down  CPU 500m to 375m when replica is 1
+$ sh ./configuration.sh cpu=375 memory=512 replica=1 service=acmeair-booking-db
+[DONE] Applied. Backups are alongside the YAMLs.
+We sleep for 30 until the next iteration happens
+
+===== Iteration 2/3 | label=medium-iteration2 =====
+[LOAD] running JMeter profile: medium
+HOST=acmeair9image-registry-openshift-image-registry.mycluster-ca-tor-1-835845-04e8c71ff333c8969bc4cbc5a77a70f6-0000.ca-tor.containers.appdomain.cloud
+PORT=80
+THREAD=300
+USER=3000
+DURATION=300
+RAMP=120
+DELAY=2
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    33  100    33    0     0    349      0 --:--:-- --:--:-- --:--:--   347100    33  100    33    0     0    349      0 --:--:-- --:--:-- --:--:--   347
+Cleared bookings in 0.012 seconds
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0100    42  100    42    0     0     22      0  0:00:01  0:00:01 --:--:--    22
+Loaded flights for 5 days in 1.831 seconds
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    39  100    39    0     0     82      0 --:--:-- --:--:-- --:--:--    82100    39  100    39    0     0     82      0 --:--:-- --:--:-- --:--:--    82
+Loaded 10000 customers in 0.341 seconds
+[LOAD] starting JMeter… log: logs/jmeter_medium_20251011-071635.log
+WARNING: package sun.awt.X11 not in java.desktop
+WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release
+WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release
+WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release
+WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release
+Creating summariser <summary>
+Created the tree successfully using acmeair-jmeter/scripts/AcmeAir-microservices-mpJwt.jmx
+Starting standalone test @ 2025 Oct 11 07:16:37 EDT (1760181397831)
+Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
+usePureIDs property was set.
+summary +   1853 in 00:00:22 =   85.2/s Avg:   214 Min:    15 Max:  7175 Err:     0 (0.00%) Active: 51 Started: 51 Finished: 0
+summary +   5113 in 00:00:30 =  170.5/s Avg:   411 Min:    12 Max: 22442 Err:   642 (12.56%) Active: 127 Started: 127 Finished: 0
+summary =   6966 in 00:00:52 =  134.6/s Avg:   359 Min:    12 Max: 22442 Err:   642 (9.22%)
+summary +  15835 in 00:00:30 =  527.7/s Avg:   291 Min:    10 Max: 18131 Err:  4832 (30.51%) Active: 202 Started: 202 Finished: 0
+summary =  22801 in 00:01:22 =  278.9/s Avg:   312 Min:    10 Max: 22442 Err:  5474 (24.01%)
+summary +   1804 in 00:00:30 =   60.2/s Avg:  3777 Min:    12 Max: 13498 Err:   791 (43.85%) Active: 277 Started: 277 Finished: 0
+summary =  24605 in 00:01:52 =  220.2/s Avg:   566 Min:    10 Max: 22442 Err:  6265 (25.46%)
+summary +  15773 in 00:00:30 =  525.8/s Avg:   606 Min:    11 Max: 14528 Err:  2148 (13.62%) Active: 300 Started: 300 Finished: 0
+summary =  40378 in 00:02:22 =  284.8/s Avg:   581 Min:    10 Max: 22442 Err:  8413 (20.84%)
+summary +  10075 in 00:00:30 =  335.1/s Avg:   687 Min:    11 Max: 16126 Err:  1279 (12.69%) Active: 300 Started: 300 Finished: 0
+summary =  50453 in 00:02:52 =  293.6/s Avg:   602 Min:    10 Max: 22442 Err:  9692 (19.21%)
+summary +  21484 in 00:01:00 =  358.5/s Avg:   954 Min:    11 Max: 25587 Err:  1871 (8.71%) Active: 300 Started: 300 Finished: 0
+summary =  71937 in 00:03:52 =  310.4/s Avg:   707 Min:    10 Max: 25587 Err: 11563 (16.07%)
+summary +  13699 in 00:00:30 =  456.0/s Avg:   469 Min:    12 Max: 16925 Err:   253 (1.85%) Active: 300 Started: 300 Finished: 0
+summary =  85636 in 00:04:22 =  327.1/s Avg:   669 Min:    10 Max: 25587 Err: 11816 (13.80%)
+summary +    606 in 00:00:30 =   20.2/s Avg: 16097 Min: 13066 Max: 19092 Err:   606 (100.00%) Active: 300 Started: 300 Finished: 0
+summary =  86242 in 00:04:52 =  295.6/s Avg:   778 Min:    10 Max: 25587 Err: 12422 (14.40%)
+summary +    533 in 00:00:25 =   20.9/s Avg: 13526 Min: 12957 Max: 14364 Err:   533 (100.00%) Active: 0 Started: 300 Finished: 300
+summary =  86775 in 00:05:17 =  273.6/s Avg:   856 Min:    10 Max: 25587 Err: 12955 (14.93%)
+Tidying up ...    @ 2025 Oct 11 07:21:55 EDT (1760181715468)
+... end of run
+[LOAD] finished. JTL: logs/jmeter_medium_20251011-071635.jtl
+[LOAD] JMeter profile medium finished.
+ Different scales determined from the data under this 10 mins window:
+CPU (%): good <= 35.0, bad >= 85.0
+Memory (%): good <= 50.0, bad >= 90.0
+Latency (ms): normal <= 0, bad >= 2000000000.0
+TPS: low <= 5.0, high >= 15.0
+GC events: good <= 0.0, bad >= 8.0
+================= Recommended Strategies ================
+Service: acmeair-authservice
+  Pod restarts observed: 265.0 times in last 10 mins, check the pod logs for possible crashes.
+  Best strategy to take for this service: tune_threads (score: 1.000)
+  Other strategies in priority order:
+    add_pods    : 0.800
+    add_cpu     : 0.450
+    add_mem     : 0.200
+    scale_down  : 0.014
+    do_nothing  : 0.000
+Service: acmeair-booking-db
+  Best strategy to take for this service: scale_down (score: 0.920)
+  Other strategies in priority order:
+    add_cpu     : 0.000
+    add_mem     : 0.000
+    add_pods    : 0.000
+    tune_threads: 0.000
+    do_nothing  : 0.000
+Service: acmeair-bookingservice
+  Best strategy to take for this service: tune_threads (score: 0.670)
+  Other strategies in priority order:
+    add_pods    : 0.509
+    add_cpu     : 0.474
+    add_mem     : 0.200
+    scale_down  : 0.000
+    do_nothing  : 0.000
+Service: acmeair-customer-db
+  Best strategy to take for this service: scale_down (score: 0.886)
+  Other strategies in priority order:
+    add_cpu     : 0.000
+    add_mem     : 0.000
+    add_pods    : 0.000
+    tune_threads: 0.000
+    do_nothing  : 0.000
+Service: acmeair-customerservice
+  Best strategy to take for this service: add_cpu (score: 0.950)
+  Other strategies in priority order:
+    add_pods    : 0.682
+    add_mem     : 0.200
+    tune_threads: 0.063
+    scale_down  : 0.000
+    do_nothing  : 0.000
+Service: acmeair-flight-db
+  Best strategy to take for this service: scale_down (score: 0.961)
+  Other strategies in priority order:
+    add_cpu     : 0.000
+    add_mem     : 0.000
+    add_pods    : 0.000
+    tune_threads: 0.000
+    do_nothing  : 0.000
+Service: acmeair-flightservice
+  Best strategy to take for this service: tune_threads (score: 0.473)
+  Other strategies in priority order:
+    add_pods    : 0.338
+    add_cpu     : 0.304
+    scale_down  : 0.222
+    add_mem     : 0.135
+    do_nothing  : 0.000
+Service: acmeair-mainservice
+  Best strategy to take for this service: scale_down (score: 0.891)
+  Other strategies in priority order:
+    tune_threads: 0.366
+    add_pods    : 0.347
+    add_cpu     : 0.042
+    add_mem     : 0.019
+    do_nothing  : 0.000
+Current action we plan to make is: {'acmeair-customerservice': 'add_cpu', 'acmeair-bookingservice': 'tune_threads', 'acmeair-authservice': 'tune_threads', 'acmeair-flightservice': 'tune_threads', 'acmeair-mainservice': 'scale_down', 'acmeair-customer-db': 'scale_down', 'acmeair-flight-db': 'scale_down', 'acmeair-booking-db': 'scale_down'}
+$ sh ./configuration.sh cpu=625 memory=512 replica=1 service=acmeair-customerservice
+[PATCH] deploy-acmeair-customerservice-java.yaml (acmeair-customerservice)  -> backups to deploy-acmeair-customerservice-java.yaml.bak
+deployment.apps/acmeair-customerservice configured
+service/acmeair-customer-service unchanged
+service/acmeair-secure-customer-service unchanged
+service/acmeair-customer-db configured
+deployment.apps/acmeair-customer-db configured
+[DONE] Applied. Backups are alongside the YAMLs.
+[NOTE] acmeair-bookingservice: tune_threads suggested cannot be applied at current stage, because we cannot access to the thread in our side.
+[NOTE] acmeair-authservice: tune_threads suggested cannot be applied at current stage, because we cannot access to the thread in our side.
+[NOTE] acmeair-flightservice: tune_threads suggested cannot be applied at current stage, because we cannot access to the thread in our side.
+[MAP] acmeair-mainservice: scale_down  CPU 375m to 250m when replica is 1
+$ sh ./configuration.sh cpu=250 memory=512 replica=1 service=acmeair-mainservice
+[PATCH] deploy-acmeair-mainservice-java.yaml (acmeair-mainservice)  -> backups to deploy-acmeair-mainservice-java.yaml.bak
+deployment.apps/acmeair-mainservice configured
+service/acmeair-main-service unchanged
+service/acmeair-secure-main-service unchanged
+[DONE] Applied. Backups are alongside the YAMLs.
+[MAP] acmeair-customer-db: scale_down  CPU 375m to 250m when replica is 1
+$ sh ./configuration.sh cpu=250 memory=512 replica=1 service=acmeair-customer-db
+[DONE] Applied. Backups are alongside the YAMLs.
+[MAP] acmeair-flight-db: scale_down  CPU 375m to 250m when replica is 1
+$ sh ./configuration.sh cpu=250 memory=512 replica=1 service=acmeair-flight-db
+[DONE] Applied. Backups are alongside the YAMLs.
+[MAP] acmeair-booking-db: scale_down  CPU 375m to 250m when replica is 1
+$ sh ./configuration.sh cpu=250 memory=512 replica=1 service=acmeair-booking-db
+[DONE] Applied. Backups are alongside the YAMLs.
+We sleep for 30 until the next iteration happens
+
+===== Iteration 3/3 | label=medium-iteration3 =====
+[LOAD] running JMeter profile: medium
+HOST=acmeair9image-registry-openshift-image-registry.mycluster-ca-tor-1-835845-04e8c71ff333c8969bc4cbc5a77a70f6-0000.ca-tor.containers.appdomain.cloud
+PORT=80
+THREAD=300
+USER=3000
+DURATION=300
+RAMP=120
+DELAY=2
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    33  100    33    0     0    267      0 --:--:-- --:--:-- --:--:--   268
+Cleared bookings in 0.026 seconds
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    42  100    42    0     0     47      0 --:--:-- --:--:-- --:--:--    47100    42  100    42    0     0     47      0 --:--:-- --:--:-- --:--:--    46
+Loaded flights for 5 days in 0.842 seconds
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0100    39  100    39    0     0     19      0  0:00:02  0:00:02 --:--:--    19100    39  100    39    0     0     19      0  0:00:02  0:00:02 --:--:--    19
+Loaded 10000 customers in 1.777 seconds
+[LOAD] starting JMeter… log: logs/jmeter_medium_20251011-072253.log
+WARNING: package sun.awt.X11 not in java.desktop
+WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release
+WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release
+WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release
+WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release
+Creating summariser <summary>
+Created the tree successfully using acmeair-jmeter/scripts/AcmeAir-microservices-mpJwt.jmx
+Starting standalone test @ 2025 Oct 11 07:22:55 EDT (1760181775683)
+Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
+usePureIDs property was set.
+summary +     51 in 00:00:04 =   13.1/s Avg:    46 Min:    22 Max:   400 Err:     0 (0.00%) Active: 5 Started: 5 Finished: 0
+summary +   8447 in 00:00:30 =  281.5/s Avg:   124 Min:    13 Max: 16054 Err:     0 (0.00%) Active: 82 Started: 82 Finished: 0
+summary =   8498 in 00:00:34 =  250.6/s Avg:   123 Min:    13 Max: 16054 Err:     0 (0.00%)
+summary +  17315 in 00:00:30 =  577.1/s Avg:   195 Min:    11 Max: 18255 Err:   428 (2.47%) Active: 157 Started: 157 Finished: 0
+summary =  25813 in 00:01:04 =  403.9/s Avg:   171 Min:    11 Max: 18255 Err:   428 (1.66%)
+summary +  22544 in 00:00:30 =  751.8/s Avg:   234 Min:    11 Max: 19865 Err:   491 (2.18%) Active: 233 Started: 233 Finished: 0
+summary =  48357 in 00:01:34 =  515.0/s Avg:   200 Min:    11 Max: 19865 Err:   919 (1.90%)
+summary +  25187 in 00:00:30 =  839.4/s Avg:   297 Min:    10 Max: 21355 Err:   840 (3.34%) Active: 300 Started: 300 Finished: 0
+summary =  73544 in 00:02:04 =  593.5/s Avg:   234 Min:    10 Max: 21355 Err:  1759 (2.39%)
+summary +  26496 in 00:00:30 =  883.9/s Avg:   355 Min:    10 Max: 21262 Err:   939 (3.54%) Active: 300 Started: 300 Finished: 0
+summary = 100040 in 00:02:34 =  650.0/s Avg:   266 Min:    10 Max: 21355 Err:  2698 (2.70%)
+summary +  20564 in 00:00:30 =  684.7/s Avg:   420 Min:    10 Max: 19671 Err:  1053 (5.12%) Active: 300 Started: 300 Finished: 0
+summary = 120604 in 00:03:04 =  655.7/s Avg:   292 Min:    10 Max: 21355 Err:  3751 (3.11%)
+summary +    518 in 00:00:30 =   17.3/s Avg: 15753 Min:  7783 Max: 19246 Err:   490 (94.59%) Active: 300 Started: 300 Finished: 0
+summary = 121122 in 00:03:34 =  566.1/s Avg:   358 Min:    10 Max: 21355 Err:  4241 (3.50%)
+summary +    510 in 00:00:30 =   17.0/s Avg: 16756 Min: 15988 Max: 17561 Err:   510 (100.00%) Active: 300 Started: 300 Finished: 0
+summary = 121632 in 00:04:04 =  498.6/s Avg:   427 Min:    10 Max: 21355 Err:  4751 (3.91%)
+summary +    293 in 00:00:32 =    9.1/s Avg: 17837 Min: 17157 Max: 32824 Err:   293 (100.00%) Active: 300 Started: 300 Finished: 0
+summary = 121925 in 00:04:36 =  441.5/s Avg:   469 Min:    10 Max: 32824 Err:  5044 (4.14%)
+summary +  29606 in 00:00:29 = 1021.4/s Avg:   504 Min:    10 Max: 32735 Err:   662 (2.24%) Active: 65 Started: 300 Finished: 235
+summary = 151531 in 00:05:05 =  496.6/s Avg:   475 Min:    10 Max: 32824 Err:  5706 (3.77%)
+summary +     64 in 00:00:03 =   25.1/s Avg:  6588 Min:  6270 Max:  6948 Err:    12 (18.75%) Active: 0 Started: 300 Finished: 300
+summary = 151595 in 00:05:08 =  492.7/s Avg:   478 Min:    10 Max: 32824 Err:  5718 (3.77%)
+Tidying up ...    @ 2025 Oct 11 07:28:03 EDT (1760182083781)
+... end of run
+[LOAD] finished. JTL: logs/jmeter_medium_20251011-072253.jtl
+[LOAD] JMeter profile medium finished.
+ Different scales determined from the data under this 10 mins window:
+CPU (%): good <= 35.0, bad >= 85.0
+Memory (%): good <= 50.0, bad >= 90.0
+Latency (ms): normal <= 0, bad >= 2000000000.0
+TPS: low <= 5.0, high >= 15.0
+GC events: good <= 0.0, bad >= 8.0
+================= Recommended Strategies ================
+Service: acmeair-authservice
+  Pod restarts observed: 300.0 times in last 10 mins, check the pod logs for possible crashes.
+  Best strategy to take for this service: tune_threads (score: 1.000)
+  Other strategies in priority order:
+    add_pods    : 0.800
+    add_cpu     : 0.450
+    add_mem     : 0.200
+    scale_down  : 0.040
+    do_nothing  : 0.000
+Service: acmeair-booking-db
+  Best strategy to take for this service: scale_down (score: 0.836)
+  Other strategies in priority order:
+    add_cpu     : 0.000
+    add_mem     : 0.000
+    add_pods    : 0.000
+    tune_threads: 0.000
+    do_nothing  : 0.000
+Service: acmeair-bookingservice
+  Best strategy to take for this service: tune_threads (score: 0.700)
+  Other strategies in priority order:
+    add_pods    : 0.500
+    add_cpu     : 0.450
+    add_mem     : 0.200
+    scale_down  : 0.061
+    do_nothing  : 0.000
+Service: acmeair-customer-db
+  Best strategy to take for this service: scale_down (score: 0.896)
+  Other strategies in priority order:
+    add_cpu     : 0.000
+    add_mem     : 0.000
+    add_pods    : 0.000
+    tune_threads: 0.000
+    do_nothing  : 0.000
+Service: acmeair-customerservice
+  Best strategy to take for this service: add_cpu (score: 0.837)
+  Other strategies in priority order:
+    add_pods    : 0.641
+    tune_threads: 0.207
+    add_mem     : 0.200
+    scale_down  : 0.000
+    do_nothing  : 0.000
+Service: acmeair-flight-db
+  Best strategy to take for this service: scale_down (score: 0.937)
+  Other strategies in priority order:
+    add_cpu     : 0.000
+    add_mem     : 0.000
+    add_pods    : 0.000
+    tune_threads: 0.000
+    do_nothing  : 0.000
+Service: acmeair-flightservice
+  Best strategy to take for this service: scale_down (score: 0.358)
+  Other strategies in priority order:
+    tune_threads: 0.297
+    add_pods    : 0.212
+    add_cpu     : 0.191
+    add_mem     : 0.085
+    do_nothing  : 0.000
+Service: acmeair-mainservice
+  Best strategy to take for this service: tune_threads (score: 0.598)
+  Other strategies in priority order:
+    add_pods    : 0.513
+    scale_down  : 0.479
+    add_cpu     : 0.192
+    add_mem     : 0.085
+    do_nothing  : 0.000
+Current action we plan to make is: {'acmeair-mainservice': 'tune_threads', 'acmeair-customerservice': 'add_cpu', 'acmeair-flight-db': 'scale_down', 'acmeair-authservice': 'tune_threads', 'acmeair-flightservice': 'scale_down', 'acmeair-bookingservice': 'tune_threads', 'acmeair-booking-db': 'scale_down', 'acmeair-customer-db': 'scale_down'}
+[NOTE] acmeair-mainservice: tune_threads suggested cannot be applied at current stage, because we cannot access to the thread in our side.
+$ sh ./configuration.sh cpu=875 memory=512 replica=1 service=acmeair-customerservice
+[PATCH] deploy-acmeair-customerservice-java.yaml (acmeair-customerservice)  -> backups to deploy-acmeair-customerservice-java.yaml.bak
+deployment.apps/acmeair-customerservice configured
+service/acmeair-customer-service unchanged
+service/acmeair-secure-customer-service unchanged
+service/acmeair-customer-db configured
+deployment.apps/acmeair-customer-db configured
+[DONE] Applied. Backups are alongside the YAMLs.
+[SKIP] acmeair-flight-db: scale_down mapped to CPU↓ but already at MIN_CPU=250m
+[NOTE] acmeair-authservice: tune_threads suggested cannot be applied at current stage, because we cannot access to the thread in our side.
+[MAP] acmeair-flightservice: scale_down  CPU 500m to 375m when replica is 1
+$ sh ./configuration.sh cpu=375 memory=512 replica=1 service=acmeair-flightservice
+[PATCH] deploy-acmeair-flightservice-java.yaml (acmeair-flightservice)  -> backups to deploy-acmeair-flightservice-java.yaml.bak
+deployment.apps/acmeair-flightservice configured
+service/acmeair-flight-service unchanged
+service/acmeair-secure-flight-service unchanged
+service/acmeair-flight-db configured
+deployment.apps/acmeair-flight-db configured
+[DONE] Applied. Backups are alongside the YAMLs.
+[NOTE] acmeair-bookingservice: tune_threads suggested cannot be applied at current stage, because we cannot access to the thread in our side.
+[SKIP] acmeair-booking-db: scale_down mapped to CPU↓ but already at MIN_CPU=250m
+[SKIP] acmeair-customer-db: scale_down mapped to CPU↓ but already at MIN_CPU=250m
+We sleep for 30 to let the last adaptation take effect
+[LOAD] running JMeter profile: medium
+HOST=acmeair9image-registry-openshift-image-registry.mycluster-ca-tor-1-835845-04e8c71ff333c8969bc4cbc5a77a70f6-0000.ca-tor.containers.appdomain.cloud
+PORT=80
+THREAD=300
+USER=3000
+DURATION=300
+RAMP=120
+DELAY=2
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    33  100    33    0     0    448      0 --:--:-- --:--:-- --:--:--   452
+Cleared bookings in 0.038 seconds
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0100    42  100    42    0     0     38      0  0:00:01  0:00:01 --:--:--    38
+Loaded flights for 5 days in 0.952 seconds
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0100    39  100    39    0     0     23      0  0:00:01  0:00:01 --:--:--    23
+Loaded 10000 customers in 1.409 seconds
+[LOAD] starting JMeter… log: logs/jmeter_medium_20251011-072857.log
+WARNING: package sun.awt.X11 not in java.desktop
+WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release
+WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release
+WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release
+WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release
+Creating summariser <summary>
+Created the tree successfully using acmeair-jmeter/scripts/AcmeAir-microservices-mpJwt.jmx
+Starting standalone test @ 2025 Oct 11 07:29:00 EDT (1760182140712)
+Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
+usePureIDs property was set.
+summary +      1 in 00:00:03 =    0.3/s Avg:   272 Min:   272 Max:   272 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+summary +   7091 in 00:00:26 =  277.2/s Avg:    96 Min:    12 Max: 10493 Err:     2 (0.03%) Active: 67 Started: 67 Finished: 0
+summary =   7092 in 00:00:29 =  245.8/s Avg:    96 Min:    12 Max: 10493 Err:     2 (0.03%)
+summary +    718 in 00:00:30 =   23.9/s Avg:  3895 Min:    14 Max: 10874 Err:   247 (34.40%) Active: 144 Started: 144 Finished: 0
+summary =   7810 in 00:00:59 =  132.5/s Avg:   445 Min:    12 Max: 10874 Err:   249 (3.19%)
+summary +   1072 in 00:00:30 =   35.8/s Avg:  4481 Min:    15 Max: 14198 Err:   319 (29.76%) Active: 219 Started: 219 Finished: 0
+summary =   8882 in 00:01:29 =   99.9/s Avg:   933 Min:    12 Max: 14198 Err:   568 (6.39%)
+summary +   1599 in 00:00:30 =   53.3/s Avg:  5214 Min:    19 Max: 17849 Err:   360 (22.51%) Active: 295 Started: 295 Finished: 0
+summary =  10481 in 00:01:59 =   88.1/s Avg:  1586 Min:    12 Max: 17849 Err:   928 (8.85%)
+summary +    541 in 00:00:30 =   18.0/s Avg: 12923 Min:    18 Max: 19131 Err:   505 (93.35%) Active: 300 Started: 300 Finished: 0
+summary =  11022 in 00:02:29 =   74.0/s Avg:  2142 Min:    12 Max: 19131 Err:  1433 (13.00%)
+summary +    673 in 00:00:30 =   22.5/s Avg: 14272 Min: 12687 Max: 18073 Err:   673 (100.00%) Active: 300 Started: 300 Finished: 0
+summary =  11695 in 00:02:59 =   65.4/s Avg:  2840 Min:    12 Max: 19131 Err:  2106 (18.01%)
+summary +    651 in 00:00:30 =   21.7/s Avg: 13475 Min: 12942 Max: 14506 Err:   651 (100.00%) Active: 300 Started: 300 Finished: 0
+summary =  12346 in 00:03:29 =   59.1/s Avg:  3401 Min:    12 Max: 19131 Err:  2757 (22.33%)
+summary +    612 in 00:00:30 =   20.4/s Avg: 14502 Min: 13849 Max: 15102 Err:   612 (100.00%) Active: 300 Started: 300 Finished: 0
+summary =  12958 in 00:03:59 =   54.2/s Avg:  3925 Min:    12 Max: 19131 Err:  3369 (26.00%)
+summary +    567 in 00:00:30 =   18.9/s Avg: 15367 Min: 14371 Max: 16273 Err:   567 (100.00%) Active: 300 Started: 300 Finished: 0
+summary =  13525 in 00:04:29 =   50.3/s Avg:  4405 Min:    12 Max: 19131 Err:  3936 (29.10%)
+summary +    614 in 00:00:30 =   20.5/s Avg: 15537 Min: 13187 Max: 17284 Err:   614 (100.00%) Active: 300 Started: 300 Finished: 0
+summary =  14139 in 00:04:59 =   47.3/s Avg:  4888 Min:    12 Max: 19131 Err:  4550 (32.18%)
+summary +    372 in 00:00:17 =   21.7/s Avg: 13468 Min: 12597 Max: 13895 Err:   372 (100.00%) Active: 0 Started: 300 Finished: 300
+summary =  14511 in 00:05:16 =   45.9/s Avg:  5108 Min:    12 Max: 19131 Err:  4922 (33.92%)
+Tidying up ...    @ 2025 Oct 11 07:34:17 EDT (1760182457172)
+... end of run
+[LOAD] finished. JTL: logs/jmeter_medium_20251011-072857.jtl
+[LOAD] JMeter profile medium finished.
+ Different scales determined from the data under this 10 mins window:
+CPU (%): good <= 35.0, bad >= 85.0
+Memory (%): good <= 50.0, bad >= 90.0
+Latency (ms): normal <= 0, bad >= 2000000000.0
+TPS: low <= 5.0, high >= 15.0
+GC events: good <= 0.0, bad >= 8.0
+================= Recommended Strategies ================
+Service: acmeair-authservice
+  Pod restarts observed: 300.0 times in last 10 mins, check the pod logs for possible crashes.
+  Best strategy to take for this service: tune_threads (score: 1.000)
+  Other strategies in priority order:
+    add_pods    : 0.800
+    add_cpu     : 0.450
+    add_mem     : 0.200
+    scale_down  : 0.137
+    do_nothing  : 0.000
+Service: acmeair-booking-db
+  Best strategy to take for this service: scale_down (score: 0.963)
+  Other strategies in priority order:
+    add_cpu     : 0.000
+    add_mem     : 0.000
+    add_pods    : 0.000
+    tune_threads: 0.000
+    do_nothing  : 0.000
+Service: acmeair-bookingservice
+  Best strategy to take for this service: tune_threads (score: 1.000)
+  Other strategies in priority order:
+    add_pods    : 0.800
+    add_cpu     : 0.450
+    add_mem     : 0.200
+    scale_down  : 0.136
+    do_nothing  : 0.000
+Service: acmeair-customer-db
+  Best strategy to take for this service: scale_down (score: 0.976)
+  Other strategies in priority order:
+    add_cpu     : 0.000
+    add_mem     : 0.000
+    add_pods    : 0.000
+    tune_threads: 0.000
+    do_nothing  : 0.000
+Service: acmeair-customerservice
+  Best strategy to take for this service: scale_down (score: 0.611)
+  Other strategies in priority order:
+    tune_threads: 0.545
+    add_pods    : 0.475
+    add_cpu     : 0.158
+    add_mem     : 0.070
+    do_nothing  : 0.000
+Service: acmeair-flight-db
+  Best strategy to take for this service: scale_down (score: 0.907)
+  Other strategies in priority order:
+    add_cpu     : 0.000
+    add_mem     : 0.000
+    add_pods    : 0.000
+    tune_threads: 0.000
+    do_nothing  : 0.000
+Service: acmeair-flightservice
+  Best strategy to take for this service: add_pods (score: 0.702)
+  Other strategies in priority order:
+    tune_threads: 0.631
+    add_cpu     : 0.592
+    add_mem     : 0.200
+    scale_down  : 0.000
+    do_nothing  : 0.000
+Service: acmeair-mainservice
+  Best strategy to take for this service: scale_down (score: 0.947)
+  Other strategies in priority order:
+    tune_threads: 0.303
+    add_pods    : 0.302
+    add_cpu     : 0.002
+    add_mem     : 0.001
+    do_nothing  : 0.000
+
+ Finish the execution!!!

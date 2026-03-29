@@ -1,0 +1,50 @@
+acmeair-driver/
+├─ driver.py                  # MAPE loop: pulls metrics, scores harmfulness, plans actions, executes (optional)
+├─ configuration.sh           # Edits replicas/CPU/Memory in the 5 deployment YAMLs and oc-applies them
+├─ runJmeter.sh               # Starts JMeter load (small/medium/large) and pre-loads data via REST
+├─ graph.py                   # Plots a 6-panel figure from one CSV
+├─ deploy-*.yaml              # 5 service manifests (main/auth/booking/customer/flight + DBs in booking/customer/flight files)
+├─ manifests-openshift/…      # Original upstream manifests (used by some build/deploy flows)
+├─ datasets/                  # CSVs written by driver.py (auto-dated filenames)
+└─ figures/                   # PNG figures written by graph.py (auto-dated filenames)
+
+
+You need to place 5 yaml files under the same folder of driver.py to run the code.
+
+How to run driver.py:
+
+usage: driver.py [-h] [--label LABEL] [--out OUT] [--loop LOOP] [--interval-sec INTERVAL_SEC] [--act]
+                 [--load {small,medium,large}]
+
+options:
+  -h, --help            show this help message and exit
+  --label LABEL         a tag for this window, e.g., low|medium|high
+  --out OUT             CSV path for raw+derived samples
+  --loop LOOP           iterations of Monitor→Analyze→Plan→Execute, if infinity loop, type 0 here
+  --interval-sec INTERVAL_SEC
+                        Interval to sleep after one execute of loop to let the adaption update.
+  --act                 actually call configuration.sh (otherwise print only)
+  --load {small,medium,large}
+                        which JMeter profile to run before each iteration
+
+Simple example:
+python3 -u driver.py --label small --out datasets/adapt_small.csv --loop 3 --act --load small
+
+How to run graph.py:
+
+usage: graph.py [-h] [--out-dir OUT_DIR] csv
+
+Plot AcmeAir metrics from one CSV into a single 6 panel figure.
+
+positional arguments:
+  csv                Path to a single CSV (any small/medium/large, adapt/noadapt).
+
+options:
+  -h, --help         show this help message and exit
+  --out-dir OUT_DIR  Directory to save the figure (default: figures/).
+
+
+Simple example:
+python3 graph.py datasets/adapt_small_iteration3_postadapt_20251011-120248.csv
+
+After each size of running, we need to call ./configuration.sh cpu=500 memory=512 replica=1  to reset as default configuration
